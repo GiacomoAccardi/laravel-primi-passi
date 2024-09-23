@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $message = 'Mi sa che Laravel mi piace';
+
+    return view('welcome', compact('message'));
 });

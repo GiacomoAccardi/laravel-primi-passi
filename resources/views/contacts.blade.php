@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>laravel</title>
+    <title>laravel | contacts</title>
 </head>
 <body>
-    
-    <header>
+
+<header>
         <a href="{{ route('home') }}">Home</a>
         <a href="{{ route('info') }}">Info</a>
         <a href="{{ route('contacts') }}">Contact</a>
         <hr>
     </header>
-
-    <h1>Hello world!</h1>
-    <p>{{ $message }}</p>
+    
+    <ul>
+        <li>
+            Numero di telefono: 223425366
+        </li>
+        <li>
+            Email: sduifhsoudfh@gmail.com
+        </li>
+        <li>
+            FAX: 323472379
+        </li>
+    </ul>
 </body>
 </html>
